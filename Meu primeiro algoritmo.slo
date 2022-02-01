@@ -1,0 +1,22 @@
+início {
+    caractere: nome;
+    inteiro: idade;
+    real: altura;
+    caractere: info;
+    
+    //nome = "andré";
+    //idade = 24;
+    //altura = 1.73;
+    leia ("Escreva seu nome", nome);
+    // escreva (nome);
+    //escreva (idade);
+    //escreva(altura);
+    leia ("agora me informe sua idade!", idade);
+    
+    leia ("e por ultimo, me informe sua altura", altura);
+    
+    info = "olá, " + nome + " prazer em te conhecer, sua idade é " + idade + " anos, e sua altura é " + altura + " certo!?";
+    
+    escreva (info);
+       
+}
